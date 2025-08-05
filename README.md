@@ -44,7 +44,7 @@ This suite verifies critical public-facing functionality of the Lead Consult web
 
 ### Prerequisites
 
-- Node.js v18 or higher
+- Node.js v18 or higher installed on the machine [Download here](https://nodejs.org/en)
 - npm (Node package manager)
 
 ### Installation

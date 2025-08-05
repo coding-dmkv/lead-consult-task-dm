@@ -34,6 +34,7 @@ test('Header buttons validation', async ({ page }) => {
         await home.clickDropdownNav(item.parent, item.child);
       }
 
+      // Assert correct url and page title on each page navigation
       await expect(page).toHaveURL(item.url);
       await expect(page).toHaveTitle(item.title);
     });

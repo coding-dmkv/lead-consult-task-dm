@@ -11,6 +11,8 @@ test('Contact us form input validation', async ({ page }) => {
   await expect(page).toHaveTitle('Contact us - LEAD Consult');
 
   const contactPage = new ContactUsPage(page);
+
+  // Assert contact us form fields are present on the page layout
   await expect(contactPage.getInputByLabel('Your Name*', 'contactForm')).toBeVisible();
   await expect(contactPage.getInputByLabel('Your Email*', 'contactForm')).toBeVisible();
   await expect(contactPage.getInputByLabel('Your Phone Number', 'contactForm')).toBeVisible();
