@@ -52,8 +52,8 @@ This suite verifies critical public-facing functionality of the Lead Consult web
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/coding-dmkv/lead-consult-interview.git
-cd lead-consult-interview
+git clone https://github.com/coding-dmkv/lead-consult-task-dm.git
+cd lead-consult-task-dm
 npm install
 npx playwright install
 ```
